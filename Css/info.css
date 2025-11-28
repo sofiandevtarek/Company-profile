@@ -1,0 +1,18 @@
+#quality-and-safe, #see, #message, #goal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+  background-color: #fff;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  .title {
+    font-size: 36px;
+  color: var(--color);
+  }
+  .text {
+    font-size: 25px;
+  }
+}

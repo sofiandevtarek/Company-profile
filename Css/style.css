@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color: #00008c;
+}
+
+body {
+  background-color: #efeeee;
+  font-family: sans-serif;
+}
+
+::selection {
+  background-color: rgb(0, 175, 175);
+  color: white;
+}
+a {
+  text-decoration: none;
+}
