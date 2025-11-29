@@ -57,7 +57,8 @@
   background-color: var(--green-color);
   padding: 20px 20px;
   border-radius: 10px;
-  background-color: var(--color);;
+  background-color: var(--color);
+  ;
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -65,29 +66,47 @@
 }
 
 
+#works {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+}
 
 
+#works .title {
+  text-align: center;
+  font-size: 36px;
+  color: var(--color);
+  margin-bottom: 60px;
+  font-weight: bold;
+}
 
+.work-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1.5px solid grey;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
 
+.work-card .des {
+  font-size: 25px;
+  margin-right: 40px;
+}
 
+.work-card .des span {
+  color: var(--color);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.images .cover {
+  display: flex;
+}
 
 
 
@@ -121,6 +140,7 @@
   #welcome {
     text-align: center;
   }
+
   .animation {
     display: none;
   }
